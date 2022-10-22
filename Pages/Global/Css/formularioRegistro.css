@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #232946;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/*Cuerpo
+  border: 3px solid white;*/
+main{
+    display:flex;
+}
+form{
+
+    width: 50%;
+}
+.ya{
+    color: #B8C1EC;
+    font-size: 25px;
+    font-family: 'Inter';
+    margin-top: 2%;
+}
+.title-pather{
+    display: flex;
+    font-size: 45px;
+    font-family: 'Inter';
+    margin-top: 2%;
+    color: #B8C1EC;
+}
+.title-song{
+    margin-left: 1.5%;
+    color: #EEBBC3;
+}
+img{
+    margin-left: 0;
+    width: 50%;
+    height: 800px;
+}
+input{
+    outline: none;
+    background: none;
+    border: 1px solid #EEBBC3;
+}
+label{
+    color: #EEBBC3;
+    font-family: 15px;
+    font-family: 'Actor';
+}
+input{
+    color: #EEBBC3;
+    padding-left: 3%;
+    font-size: 20px;
+    font-family: 'Actor';
+}
+button{
+    background: #B8C1EC;
+    width: 70%;
+    height: 44.45px;
+    border: none;
+    font-size: 28px;
+    color: #FFF;
+    font-family: 'Inter';
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.form-body{
+  
+    width: 100%;
+}
+.name-input{
+    width: 20%;
+    height: 43.73px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.other-inputs{
+    width: 60%;
+   height: 44px;
+   margin-left: 10%;
+   margin-top: 5%;
+   
+}
+label{
+    position: absolute;
+}
+.label-name{
+    top: 15%;
+    margin-left: 3%;
+}
+.others-label{
+    position: absolute;
+    margin-top: 1.5%;
+    left: 56%;
+}
+/*Footer*/
+
+footer{
+    color: #EEBBC3;
+    font-family: 'Actor';
+    padding: 1em;
+    margin-top: auto;
+}
+li{
+   text-align: center;
+   font-size: 20px;
+}
